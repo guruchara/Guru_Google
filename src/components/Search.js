@@ -13,6 +13,7 @@ function Search(props) {
     const goBack =()=>{
         props.history.push("/")
     }
+    
     const searchGoogle = async (e) =>{
         e.preventDefault();
         try{
